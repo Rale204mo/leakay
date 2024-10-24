@@ -1,0 +1,23 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about h1{
+    font-size: 3rem;
+}
+
+.about{
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    display: flex;
+}
+
+.detail p{
+    width: 600px;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,126 @@
+﻿/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #006d77;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #83c5be;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section h2 {
+    color: #006d77;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Destination Grid Layout */
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.destination-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.destination-item img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.destination-item h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.destination-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+.destination-item a {
+    color: #006d77;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destination-item a:hover {
+    text-decoration: underline;
+}
+
+/* Multimedia Section Styling */
+.multimedia {
+    text-align: center;
+    margin-top: 40px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #006d77;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
